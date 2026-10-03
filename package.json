@@ -17,10 +17,17 @@
   },
   "packageManager": "npm@11.5.2",
   "engines": {
-    "node": ">=20.19.0"
+    "node": "22.x"
   },
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "react-router-dom": "^7.18.4"
+  },
+  "optionalDependencies": {
+    "@rolldown/binding-linux-x64-gnu": "1.2.11",
+    "@rolldown/binding-win32-x64-msvc": "1.2.11"
+  }
 }
